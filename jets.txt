@@ -1,0 +1,5 @@
+Bumble Bee, 10, 45, 600
+Monarch, 4, 70, 470
+Rhino Beetle, 5, 60, 500
+Wasp, 14, 40, 750
+Moth, 7, 50, 545
