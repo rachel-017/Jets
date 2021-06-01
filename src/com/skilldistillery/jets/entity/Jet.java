@@ -5,6 +5,8 @@ public abstract class Jet {
 	private double speed;
 	private int range;
 	private long price;
+	
+	public Jet() {}
 
 	public Jet(String model, double speed, int range, long price) {
 		super();
@@ -48,12 +50,12 @@ public abstract class Jet {
 	
 	@Override
 	public String toString() {
-		return "Flyer Type: " + model + " Max Speed: " + speed + " Max Range: " + range + " Price: " + price + ".";
+		return "Flyer Type: " + model + ", Max Speed: " + speed + ", Max Range: " + range + ", Price: " + price + ".";
 	}
 
 	public void fly() {
-		System.out.println("Flyer Type: " + this.model + " Max Speed: " + this.speed + " Max Range: " + this.range
-				+ " Cost: " + this.price + " Max AirTime:"+(this.range/this.speed));
+		System.out.println("Flyer Type: " + this.model + ", Max Speed: " + this.speed + ", Max Range: " + this.range
+				+ ", Cost: " + this.price + ", Max AirTime:"+(this.range/this.speed));
 	}
 	public double getSpeedInMach(double speed) {
 		double speedInMach = this.speed/767;
