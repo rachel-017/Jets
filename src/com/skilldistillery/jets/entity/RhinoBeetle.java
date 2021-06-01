@@ -12,7 +12,7 @@ public class RhinoBeetle extends Jet implements CombatReady{
 		// TODO Auto-generated constructor stub
 	}
 	public void fight() {
-		System.out.println("Enemy's been Flipped and Debilitated");
+		System.out.println("Enemy is Flipped and Debilitated");
 	}
 
 }

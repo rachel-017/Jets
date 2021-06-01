@@ -13,6 +13,6 @@ public class Wasp extends Jet implements PollenPocket, CombatReady{
 		System.out.println("zzz.. nectar found ..zzz.. Pollen Gathered");
 	}
 	public void fight() {
-		System.out.println("Enemy Stung and Paralized");
+		System.out.println("Enemy is Stung and Paralized");
 	}
 }
